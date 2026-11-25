@@ -1,0 +1,7 @@
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid #7c9653; outline-offset: 4px; }
+::selection { background: #d8e5b4; color: #24362b; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
